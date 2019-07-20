@@ -20,11 +20,11 @@ const Index = () => {
             <Link to="/videos">Videos</Link>
             <div class="logintext">
       <form>
-        <b>Team: </b>
+        <b>Team: </b> <br/>
         <input for="uname" type="text" placeholder="Team Name"/> <br/>
-        <b>User: </b>
+        <b>User: </b> <br/>
        <input type="text" placeholder="User Name"/> <br/>
-       <b>Password: </b>
+       <b>Password: </b> <br/>
         <input type="password" placeholder="Password"/> <br/>
        
         <input type="submit"/>

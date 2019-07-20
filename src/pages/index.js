@@ -1,5 +1,6 @@
 import React from "react";
-import '../mod.css';
+import './mod.css';
+import {Link} from 'gatsby';
 
 const Index = () => {
   return(
@@ -7,9 +8,13 @@ const Index = () => {
     <React.Fragment >
   <div class="wrapper">
       <center>  
-        <h1>Welcome to Video Slack!</h1>
+       
+       
+        <h1 >Welcome to Video Slack!</h1>
+ 
+
       <p>Watercoolering for the 21st century workspace!</p>
-</center>
+
 
       <Link  to="/">Home</Link><br/>
             <Link to="/videos">Videos</Link>
@@ -28,7 +33,7 @@ const Index = () => {
       </div>
 
 
-      
+      </center>
       </div>
     </React.Fragment>
   )

@@ -1,0 +1,42 @@
+.video-container{
+    
+    height: 100vh;
+    background: rgb(240,237,238);
+    
+}
+
+td {
+    width: 250px;
+    height: 250px;
+  }
+  table {
+    margin: 5px auto;
+  }
+  .vert {
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+  }
+  .hori {
+   
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+  }
+
+p{
+    font-size: 25px;
+    text-align: center;
+  }
+
+.video-links{
+    background: rgb(240,237,238);
+    font-size: 20px;
+    display: flex;
+    height: 1vh;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 4px;
+    padding: 25px 25px 25px 25px;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+

@@ -9,7 +9,7 @@ const Recording = () => {
             <h1>Record your video!</h1>
             <Record/>
             <div className="links">
-                <Link to="/">Home</Link>
+                <Link to="/home">Home</Link>
                 <Link to="/videos">Videos</Link>
             </div>
         

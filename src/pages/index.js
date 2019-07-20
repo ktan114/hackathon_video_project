@@ -9,15 +9,16 @@ const Index = () => {
   <div class="wrapper">
       <center>  
        
-       
+      <div class="logintext">
         <h1 >Welcome to Video Slack!</h1>
- 
+        </div>
 
+        <div class="logintext">
       <p>Watercoolering for the 21st century workspace!</p>
+</div>
 
-
-      <Link  to="/">Home</Link><br/>
-            <Link to="/videos">Videos</Link>
+         {/* <Link  to="/">Home</Link><br/> */}
+          {/*  <Link to="/videos">Videos</Link> */}
             <div class="logintext">
       <form>
         <b>Team: </b> <br/>

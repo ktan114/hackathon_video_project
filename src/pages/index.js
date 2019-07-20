@@ -5,6 +5,4 @@ const Index = () => {
     <p>Hello team Video Slack!</p>
   )
 }
-
-
 export default Index;

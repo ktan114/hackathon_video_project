@@ -1,8 +1,5 @@
 import React from "react";
-import {Link} from 'gatsby';
-import './mod.css';
-
-
+import '../mod.css';
 
 const Index = () => {
   return(

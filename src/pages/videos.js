@@ -1,5 +1,6 @@
 import React from 'react';
 import {Link} from 'gatsby';
+import Video from '../components/video';
 
 
 const Videos = () => {
@@ -18,6 +19,7 @@ const Videos = () => {
   </li>
 </ul>
             <p>Hello from videos</p>
+            <Video/>
             <Link to='/'>Home</Link><br/>
             <Link to='/recording'>Record Video</Link>
 

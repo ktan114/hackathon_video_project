@@ -1,8 +1,9 @@
+/*login fill in modification*/
 body {font-family: Arial, Helvetica, sans-serif;}
 form {border: 3px solid #f1f1f1;}
 
 input[type=text], input[type=password] {
-  width: 100%;
+  width: 75%;
   padding: 12px 20px;
   margin: 8px 0;
   display: inline-block;
@@ -50,6 +51,7 @@ span.psw {
 }
 
 .logintext{
+    width: 40%;
     background-color: white;
 }
 
@@ -93,6 +95,3 @@ span.psw {
       100%{background-position:0% 82%}
   }
 
-
-
-  

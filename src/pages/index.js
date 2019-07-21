@@ -17,6 +17,8 @@ const Index = () => {
       <p>Watercoolering for the 21st century workspace!</p>
 </div>
 
+         <Link  to="/">Home</Link><br/>
+           <Link to="/videos">Videos</Link>
             <div class="logintext">
       <form>
         <b>Team: </b> <br/>

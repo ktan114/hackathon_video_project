@@ -9,22 +9,32 @@ const Videos = () => {
         <div className = "video-container">
             <p>Videos</p>
             <table>
-  <tr>
-    <td></td>
-    <td class="vert"></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td class="hori"></td>
-    <td class="vert hori"></td>
-    <td class="hori"></td>
-  </tr>
-  <tr>
-    <td></td>
-    <td class="vert"></td>
-    <td></td>
-  </tr>
-</table>
+            <tr>
+                <td> <iframe width="420" height="345" src="https://www.youtube.com/embed/tgbNymZ7vqY">
+            </iframe></td>
+                <td class="vert"> <iframe width="420" height="345" src="https://www.youtube.com/embed/tgbNymZ7vqY">
+            </iframe></td>
+                <td> <iframe width="420" height="345" src="https://www.youtube.com/embed/tgbNymZ7vqY">
+            </iframe></td>
+            </tr>
+            <tr>
+            <td class="hori">
+                <iframe width="420" height="345" src="https://www.youtube.com/embed/tgbNymZ7vqY">
+            </iframe></td>
+            <td class="vert hori"> <iframe width="420" height="345" src="https://www.youtube.com/embed/tgbNymZ7vqY">
+            </iframe></td>
+            <td class="hori"> <iframe width="420" height="345" src="https://www.youtube.com/embed/tgbNymZ7vqY">
+            </iframe></td>
+            </tr>
+            <tr>
+            <td> <iframe width="420" height="345" src="https://www.youtube.com/embed/tgbNymZ7vqY">
+            </iframe></td>
+            <td class="vert"> <iframe width="420" height="345" src="https://www.youtube.com/embed/tgbNymZ7vqY">
+            </iframe></td>
+             <td><iframe width="420" height="345" src="https://www.youtube.com/embed/tgbNymZ7vqY">
+            </iframe></td>
+            </tr>
+            </table>
             <Video/>
             <div className = "video-links">
                 <Link to='/'>Home</Link><br/>

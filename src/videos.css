@@ -6,11 +6,11 @@
 }
 
 td {
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
   }
   table {
-    margin: 5px auto;
+    margin: 2px auto;
   }
   .vert {
     border-left: 2px solid black;
@@ -23,7 +23,7 @@ td {
   }
 
 p{
-    font-size: 25px;
+    font-size: 30px;
     text-align: center;
   }
 
@@ -34,6 +34,7 @@ p{
     height: 1vh;
     flex-direction: row;
     align-items: center;
+    margin: 0 0.5rem;
     border-radius: 4px;
     padding: 25px 25px 25px 25px;
     justify-content: space-evenly;
